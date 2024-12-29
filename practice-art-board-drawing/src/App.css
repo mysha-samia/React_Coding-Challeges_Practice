@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.toolbar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+}
+
+button.active {
+  background-color: black;
+  color:#ffff;
+  
+}
+
+button:hover {
+  background-color: #ffff;
+  color: black;
+
+}
+
+.canvas {
+  display: block;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+
+
